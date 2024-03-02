@@ -7,4 +7,5 @@ class User < ApplicationRecord
 
   has_many :room_users
   has_many :rooms, through: :room_users
+  has_many :messages # usersテーブルに対して、messagesテーブルは１対多の関係
 end
