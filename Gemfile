@@ -73,3 +73,4 @@ end
 
 gem 'devise'
 gem 'pry-rails'
+gem 'image_processing', '~> 1.2'
